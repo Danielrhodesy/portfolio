@@ -1,0 +1,39 @@
+@import 'grid';
+
+
+body {
+    margin: 0px;
+}
+
+.name-header {
+        grid-area: header
+}
+ 
+h1 {
+    font-family: 'Helios Antique';
+    font-weight: 400;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.line {
+    height: 3px;
+    width: 100px;
+    background-color: black;
+}
+
+h5 {
+    font-weight: 300;
+    letter-spacing: 1.5px;
+}
+
+.content-main {
+        grid-area: main
+}
+
+.project-container {
+    height: 500px;
+    width: 100%;
+    background-color: rgb(180, 180, 180);
+}
